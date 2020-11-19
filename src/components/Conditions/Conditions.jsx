@@ -11,7 +11,7 @@ const conditions = (props) => {
                    <p><strong>{props.responseObj.name}</strong></p>
                    <p>It is currently {Math.round(props.responseObj.main.temp)} degrees with {props.responseObj.weather[0].description}. 
                    <br></br>
-                   Humidity is {Math.round(props.responseObj.main.humidity)}%, 
+                   Humidity: {Math.round(props.responseObj.main.humidity)}%, 
                    <br></br>
                    Highs of {parseInt(props.responseObj.main.tempmax)} and a low of {Math.round(props.responseObj.main.tempmin)} </p>
                
