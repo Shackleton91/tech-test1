@@ -13,9 +13,8 @@ const conditions = (props) => {
                    <br></br>
                    Humidity: {Math.round(props.responseObj.main.humidity)}%, 
                    <br></br>
-                   Highs of {parseInt(props.responseObj.main.tempmax)} and a low of {Math.round(props.responseObj.main.tempmin)} </p>
-               
-               </div>
+                   Highs of {parseInt(props.responseObj.main.temp_max)} and a low of {Math.round(props.responseObj.main.temp_min)} </p>
+                </div>
            : null
            }
        </div>
